@@ -4,7 +4,7 @@ public:
         int n = intervals.size();
         vector<vector<int>> result;
         int i = 0;
-        while(i < n && intervals[1][i] < newInterval[0]){
+        while(i < n && intervals[i][1] < newInterval[0]){
                 result.push_back(intervals[i]);
                 i++;
         }
