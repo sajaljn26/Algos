@@ -1,21 +1,21 @@
 class Solution {
 public:
     bool searchMatrix(vector<vector<int>>& matrix, int target) {
-        // searching in the sorted 2d matrix is the given ques 
+        // searching in a 2d matrix
         int n = matrix.size();
         int m = matrix[0].size();
         int low = 0;
-        int high = m*n-1;
+        int high = n*m-1;
         while(high >= low){
             int mid = (low + high)/2;
-            int row = mid/m;
+            int row = mid / n;
             int col = mid % m;
             if(target == matrix[row][col]){
                 return true;
-            }else if(matrix[row][col] > target){
-                high = mid-1;
-            }else{
+            }else if(matrix[row][col] < target){
                 low = mid +1;
+            }else{
+                high = mid -1;
             }
         }
         return false;
