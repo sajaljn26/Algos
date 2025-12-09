@@ -1,10 +1,11 @@
 class Solution {
 public:
     int singleNumber(vector<int>& nums) {
-        int count = 0;
-        for(int i=0;i<nums.size();i++){
-                count = count^nums[i];
+        // solving the single number
+        int a = nums[0];
+        for(int i=1;i<nums.size();i++){
+            a = a^nums[i];
         }
-        return count;
+        return a;
     }
 };
