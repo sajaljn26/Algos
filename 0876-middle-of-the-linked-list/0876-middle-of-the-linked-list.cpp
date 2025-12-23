@@ -11,16 +11,17 @@
 class Solution {
 public:
     ListNode* middleNode(ListNode* head) {
-        if(head == nullptr || head->next == nullptr){
-            return head;
-        }
-        // middle of the ll
+        // getting to the middle 
         ListNode* temp = head;
+        if(temp == nullptr || temp->next == nullptr){
+            return temp;
+        }
         ListNode* temp1 = head;
         while(temp1 != nullptr && temp1->next != nullptr){
             temp = temp->next;
             temp1 = temp1->next->next;
         }
         return temp;
+
     }
 };
