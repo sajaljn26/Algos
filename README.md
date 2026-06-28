@@ -14,6 +14,7 @@
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sajaljn26/Algos/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
 | [0169-majority-element](https://github.com/sajaljn26/Algos/tree/main/0169-majority-element/) | Easy |
 | [0189-rotate-array](https://github.com/sajaljn26/Algos/tree/main/0189-rotate-array/) | Medium |
+| [0274-h-index](https://github.com/sajaljn26/Algos/tree/main/0274-h-index/) | Medium |
 ## Two Pointers
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -27,6 +28,7 @@
 | ------- | ------- |
 | [0088-merge-sorted-array](https://github.com/sajaljn26/Algos/tree/main/0088-merge-sorted-array/) | Easy |
 | [0169-majority-element](https://github.com/sajaljn26/Algos/tree/main/0169-majority-element/) | Easy |
+| [0274-h-index](https://github.com/sajaljn26/Algos/tree/main/0274-h-index/) | Medium |
 ## Hash Table
 | Problem Name | Difficulty |
 | ------- | ------- |
@@ -54,4 +56,8 @@
 | ------- | ------- |
 | [0055-jump-game](https://github.com/sajaljn26/Algos/tree/main/0055-jump-game/) | Medium |
 | [0122-best-time-to-buy-and-sell-stock-ii](https://github.com/sajaljn26/Algos/tree/main/0122-best-time-to-buy-and-sell-stock-ii/) | Medium |
+## Counting Sort
+| Problem Name | Difficulty |
+| ------- | ------- |
+| [0274-h-index](https://github.com/sajaljn26/Algos/tree/main/0274-h-index/) | Medium |
 <!---LeetCode Topics End-->
